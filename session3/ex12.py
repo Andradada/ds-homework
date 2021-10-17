@@ -8,3 +8,11 @@
         Veti primi 6, veti afisa [1, 2, 3, 4, 5]
         Veti primi 5, veti afisa [1, 4, 9, 16]
 """
+
+x = input()
+x = int(x)
+
+for i in range(0, x):
+     if i % 2 ==0:
+         print(i)
+    

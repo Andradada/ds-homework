@@ -12,3 +12,24 @@
         5
         cate un singur numar pe linie.
 """
+
+x = input()
+x = int(x)
+
+for i in range(0, x):
+        if i % 2 ==1:
+            print(i)
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+        9

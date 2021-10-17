@@ -18,3 +18,12 @@ d1[2] = 'CMI'
 
 # Afisam dictionarul dupa schimbare
 print(d1)
+
+# Adaugam inca un element in dictionar, cu cheia 3 si valoarea 'CMI3'
+d2 = {
+     3:'CMI3'
+}
+print (d2)
+d1.update(d2)
+print(d1)
+

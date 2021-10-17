@@ -5,12 +5,15 @@
 
 # In x vom salvea valoarea care vine de la tastatura
 x = input()
-
+print (x)
 # Convertim valoarea care vine de la tastatura intr-un intreg
 x = int(x)
-
+print(x)
 # Vom printa toate numerele intregi de la 0 pana la x (primit de la tastatura)
 # functia range(x) ne va intoarce lista de elemente intregi [0, 1, 2, .., x]
 # Iteram prin toate elementele listei oferite de functia range()
-for i in range(x):
-    print(i)
+
+
+for i in range(0, x):
+    if i % 2 == 0:
+        print(i)

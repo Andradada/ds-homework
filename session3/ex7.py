@@ -18,3 +18,10 @@ s1.add(4)
 
 # Afisam setul dupa schimbare
 print(s1)
+
+s1 = {1, 2, 3}
+l1 = [1, 4, 4, 5, 6]
+print(s1)
+s1.add(4)
+print(s1)
+print(s1.union(l1))

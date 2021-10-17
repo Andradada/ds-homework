@@ -4,7 +4,10 @@
     HINT: Exista mai multe moduri prin care puteti face asta.
 """
 # Ii dam variabilei l1 ca si valoare o lista cu 4 elemente (1,2,3,4)
-# si variabilei l2 ca valoare o lista cu 4 elemente (5,6,7)
+# si variabilei l2 ca valoare o lista cu 3 elemente (5,6,7)
+from typing_extensions import Concatenate
+
+
 l1 = [1, 2, 3, 4]
 l2 = [5, 6, 7]
 
@@ -12,3 +15,12 @@ l2 = [5, 6, 7]
 # Pentru a vedea rezultatul, rulati acest script.
 print(l1)
 print(l2)
+
+l1 = [1, 2, 3, 4]
+l2 = [5, 6, 7]
+print(l1)
+print(l2)
+(l3) = l1 + l2 
+print(l3)
+
+

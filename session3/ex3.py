@@ -18,3 +18,12 @@ while x != 'exit':
 
 # Afisam lista l1.
 print(l1)
+
+l1 = []
+x = input()
+while x != 'stop':
+    l1.append(x)
+    x = input()
+    
+
+

@@ -15,3 +15,5 @@ l1 = list(t1) + list(t2)
 
 # Afisam lista
 print(l1)
+l1 = list(t1) +[2] + list(t2)
+print(l1)

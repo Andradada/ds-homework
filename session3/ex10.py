@@ -21,3 +21,15 @@ d1 = {}
 
 # Afisam listele l1 si l2
 print(l1, l2)
+
+d1={
+    1 : 'a',
+    2 : 'b',
+    3 : 'c',
+    4 : 'd',
+}
+
+print (d1)
+
+
+

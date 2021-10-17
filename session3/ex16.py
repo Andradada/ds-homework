@@ -6,3 +6,10 @@
         Veti primi: 'cmi'
         Veti printa: 'cmicmicmi'
 """
+
+
+
+x = input ("")
+
+concatenate  = x + x +x 
+print (concatenate)

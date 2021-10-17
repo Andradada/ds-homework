@@ -12,3 +12,10 @@ l1 = [1, 2, 3, 4]
 
 # Afisam lista. Pentru a vedea rezultatul, rulati acest script.
 print(l1)
+
+print(l1 + [10])
+
+l1 = [1, 2, 3, 4]
+print(l1)
+l2= l1 + [10]
+print(l2)

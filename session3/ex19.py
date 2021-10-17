@@ -6,3 +6,16 @@
         Veti primi: 'cmi'
         Veti printa: ('c', 'm', 'i')
 """
+
+s = input ('')
+
+s= s.lower()
+print (s)
+
+
+t = t('s')
+print (t)
+
+
+
+
