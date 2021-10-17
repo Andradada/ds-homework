@@ -13,7 +13,7 @@ s= s.lower()
 print (s)
 
 
-t = t('s')
+t = list(s)
 print (t)
 
 
