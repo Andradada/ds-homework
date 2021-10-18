@@ -10,3 +10,11 @@
         Veti primi: 'cmi', 'center', 'for', 'machines'
         Veti printa: ['cm', 'cente', 'fo', 'machine']
 """
+
+s = input ('')
+
+s = s.lower()
+s = (s[0: -1])
+print (s)
+
+ 
