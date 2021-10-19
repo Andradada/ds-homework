@@ -7,14 +7,13 @@
         Veti printa: ('c', 'm', 'i')
 """
 
-s = input ('')
-
-s= s.lower()
-print (s)
+my_str = input ('')
 
 
-t = list(s)
-print (t)
+
+
+
+print(tuple([x for x in my_str]))
 
 
 
