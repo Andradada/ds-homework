@@ -13,5 +13,5 @@ s = input("")
 x = input ()
 x = int(x)
 
-print([s]*x)
+print(s * x)
 
