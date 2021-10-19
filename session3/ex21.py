@@ -11,10 +11,12 @@
         Veti printa: ['cm', 'cente', 'fo', 'machine']
 """
 
-s = input ('')
 
-s = s.lower()
-s = (s[0: -1])
-print (s)
 
- 
+some_list = []
+my_str = input()
+while my_str != "exit":
+    some_list.append(my_str[:len(my_str)-1])
+    my_str = input()
+
+print(some_list)    
