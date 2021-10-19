@@ -24,3 +24,7 @@ print(l2)
 print(l3)
 
 
+# sol 2:
+
+l1.extend(l2)
+print(l1)
