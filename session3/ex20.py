@@ -16,26 +16,13 @@
             2: 'i'
         }
 """
-from typing import KeysView
-
-
-s = input ('')
-
-
+my_str = input()
 x = input ()
 x = int(x)
 
-d = {}
+d = {
+    i:my_str[i] for i in range(x)
+}
 
-for i in range (0,x):
-    d[i]= s[i]
-    print(d)
-
-# d[key] = value
-
-
-
-
-
-    
+print(d)
 
