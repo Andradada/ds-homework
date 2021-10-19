@@ -8,7 +8,7 @@
         Veti printa: 'nter'
 """
 
-s = input("")
+my_string = input("")
 
 x = input()
 x = int (x)
@@ -16,6 +16,7 @@ x = int (x)
 y = input()
 y = int (y)
 
-print(s[x:y+1])
+print(my_string[x:y+1])
+
 
 
