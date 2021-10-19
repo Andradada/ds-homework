@@ -11,5 +11,7 @@
 
 x = input ("")
 
-concatenate  = x + x +x 
+concatenate  = x + x + x 
 print (concatenate)
+
+print (x * 3)
