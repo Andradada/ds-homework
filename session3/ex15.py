@@ -23,3 +23,15 @@ total_vowels = sum(counts)
 print(total_vowels)
 
 
+
+x = input()
+vowels = 'aeiou'
+counter = 0
+for character in x:
+    if character in vowels:
+        counter +=1
+
+print(counter)
+
+
+
