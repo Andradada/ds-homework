@@ -12,7 +12,9 @@
 x = input()
 x = int(x)
 
-for i in range(0, x):
-     if i % 2 ==0:
-         print(i)
-    
+
+if x % 2 ==1:
+    print([i*i for i in range(x)][1:])
+
+else: 
+    print([i for i in range(x)][1:])
