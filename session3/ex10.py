@@ -22,14 +22,12 @@ d1 = {}
 # Afisam listele l1 si l2
 print(l1, l2)
 
-d1={
-    1 : 'a',
-    2 : 'b',
-    3 : 'c',
-    4 : 'd',
+
+
+d1 = {
+    l1[i]:l2[i] for i in range(len(l1))
 }
 
 print (d1)
-
 
 
