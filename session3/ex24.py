@@ -14,3 +14,16 @@
         Veti primi: 1232
         Veti printa: False
 """
+x = int(input())
+
+save = x
+new_nr = 0
+while x:
+    aux = x % 10
+    x = x//10
+    new_nr = new_nr*10 + aux
+
+if new_nr == save:
+    print (True)    
+else:
+    print (False)    
