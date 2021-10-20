@@ -14,3 +14,11 @@
         Veti primi: 'cojoc'
         Veti printa: True
 """
+
+my_string = input ()
+
+if my_string == my_string[::-1]:
+    print(True)
+
+else:
+    print(False)
