@@ -9,3 +9,13 @@
         Veti printa prima data: [1, 3, 4, 5, 5]
         Veti prina a doua oara: {1, 3, 4, 5}
 """
+
+x = input()
+l = []
+
+while x!= "exit":
+   l.append(int(x))
+   x = input()  
+
+print(l)
+print(set(l))
