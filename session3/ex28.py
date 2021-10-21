@@ -6,3 +6,9 @@
         Veti primi: 5
         Veti printa: 15
 """
+
+
+
+x = int(input())
+
+print(sum([i for i in range(x + 1)]))
