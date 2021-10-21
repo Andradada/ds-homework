@@ -10,3 +10,24 @@
         Veti primi: '(()]'
         Veti printa: False
 """
+my_str = input("String for solution 1\n")
+
+opened = ['(', '[','{']
+closed = [')', ']', '}']
+
+stack = []
+flag = 0
+for character in my_str:
+    if character in opened:
+        stack.append(character)
+    else:
+        idx = closed.index(character)
+        if opened[idx] in stack: 
+             stack.remove(opened[idx])
+        else:
+              flag = 1
+              break
+if stack or flag == 1:
+    print(False)  
+else: 
+    print(True)                  
